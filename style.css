@@ -6,6 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     background-image: url(images/back.png);
+    background-attachment: fixed;
 }
 
 .header {
@@ -29,8 +30,6 @@ body {
 }
 p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 42px;
-    margin: 3%;
 }
 .inner {
     background-color: aliceblue;
@@ -49,6 +48,7 @@ p {
    background-size: cover;
    background-attachment: fixed;
    background-repeat: no-repeat;
+   border-radius: 10px;
 }
 .headA {
     text-decoration: none;
@@ -69,3 +69,53 @@ li {
     font-size: 42px;
     margin: 3%;
 }
+.flex {
+    width: 17vw;
+    height: 350px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin:7%;
+}
+.anketaa:hover {
+    animation: scale1 1.5s;
+    animation-direction: alternate;
+}
+@keyframes scale1 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.25);
+    }
+}
+.bambino {
+    text-decoration: none;
+    color: inherit;
+}
+.foot {
+    font-size: 42px;
+    margin: 3%;
+}
+.pantiac {
+    display: flex;
+    justify-content: space-around;
+}
+.best {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 42px;
+}
+.main2 {
+    background-image: url(images/saintttt\ 1.jpg);
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+ }

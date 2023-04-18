@@ -119,3 +119,7 @@ li {
     background-repeat: no-repeat;
     border-radius: 10px;
  }
+ .head {
+    width: 16vw;
+    height: 30vh;
+ }
